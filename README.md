@@ -1,7 +1,7 @@
 # unistroke
 A neural network unistroke symbol recognizer with the backpropagation algorithm
 
-Install the Numpy and Scipy (used for the activation function) libraries. 
+Install the Numpy and Scipy (used for the activation function) libraries with pip3. 
 
 Run with python3 gui.py on Linux or python gui.py on Windows.
 

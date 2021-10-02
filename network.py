@@ -1,6 +1,6 @@
 # backpropagation algorithm adapted from the book "Make your own neural network" by Tariq Rashid
 import numpy
-import scipy.special
+import math
 
 # neural network class definition
 class NeuralNetwork:
@@ -21,7 +21,7 @@ class NeuralNetwork:
         self.lr = learningrate
 
         # activation function is the sigmoid function
-        self.activation_function = lambda x: scipy.special.expit(x)
+        self.activation_function = lambda x: 1 / (1 + numpy.exp(-x))
 
     # train the neural network
     def train_sample(self, inputs_list, targets_list):

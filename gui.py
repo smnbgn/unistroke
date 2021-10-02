@@ -367,7 +367,7 @@ class NeuralDraw:
 
 if __name__ == '__main__':
     root = tk.Tk()
-    title = "Single stroke symbol recognition"
+    title = "Unistroke symbol recognition"
     root.title(title)
     app = NeuralDraw(root, title)
     root.mainloop()

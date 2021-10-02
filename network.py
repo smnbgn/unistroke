@@ -1,4 +1,9 @@
-# backpropagation algorithm adapted from the book "Make your own neural network" by Tariq Rashid
+# the backpropagation algorithm is adapted from the book "Make your own neural network" by Tariq Rashid
+# original license:
+# python notebook for Make Your Own Neural Network
+# code for a 3-layer neural network, and code for learning the MNIST dataset
+# (c) Tariq Rashid, 2016
+# license is GPLv2
 import numpy
 import math
 
